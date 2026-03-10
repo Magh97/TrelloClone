@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="TrelloClone.Application/TrelloClone.Application.csproj" />
+  <Project Path="TrelloClone.Common/TrelloClone.Common.csproj" />
+  <Project Path="TrelloClone.Domain/TrelloClone.Domain.csproj" />
+  <Project Path="TrelloClone.Infrastructure/TrelloClone.Infrastructure.csproj" />
+</Solution>
