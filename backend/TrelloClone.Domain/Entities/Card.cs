@@ -10,4 +10,5 @@ public class Card : BaseEntity
     public DateTime? DueDate { get; set; } = null;
 
     public ICollection<CardMember> CardMembers { get; set; } = new List<CardMember>();
+    public ICollection<CardLabel> CardLabels { get; set; } = new List<CardLabel>();
 }

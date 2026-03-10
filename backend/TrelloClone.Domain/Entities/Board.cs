@@ -8,4 +8,5 @@ public class Board : BaseEntity
     public User Owner { get; set; } = null!;
     public UserRole Role { get; set; } = UserRole.User;
     public ICollection<List> Lists { get; set; } = new System.Collections.Generic.List<List>();
+    public ICollection<Label> Labels { get; set; } = new System.Collections.Generic.List<Label>();
 }
