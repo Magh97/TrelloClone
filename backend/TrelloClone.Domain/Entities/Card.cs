@@ -9,7 +9,8 @@ public class Card : BaseEntity
     public int Order { get; set; } = 0;
     public DateTime? DueDate { get; set; } = null;
 
-    public ICollection<CardMember> CardMembers { get; set; } = new List<CardMember>();
-    public ICollection<CardLabel> CardLabels { get; set; } = new List<CardLabel>();
-    public ICollection<Comment> Comments { get; set; } = new List<Comment>();
+    public ICollection<CardMember> CardMembers { get; set; } = new System.Collections.Generic.List<CardMember>();
+    public ICollection<CardLabel> CardLabels { get; set; } = new System.Collections.Generic.List<CardLabel>();
+    public ICollection<Comment> Comments { get; set; } = new System.Collections.Generic.List<Comment>();
+    public ICollection<Attachment> Attachments { get; set; } = new System.Collections.Generic.List<Attachment>();
 }
