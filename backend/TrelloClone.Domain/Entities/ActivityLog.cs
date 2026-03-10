@@ -3,7 +3,7 @@ namespace TrelloClone.Domain.Entities;
 public class ActivityLog
 {
     public Guid Id { get; set; } = Guid.NewGuid();
-    public string Action { get; set; } = string.Empty;
+    public ActivityActionType Action { get; set; } = ActivityActionType.None;
     public string Details { get; set; } = string.Empty;
     public Guid BoardId { get; set; }
     public Board Board { get; set; } = null!;

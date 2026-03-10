@@ -12,5 +12,6 @@ public enum ActivityActionType
     AddedLabel,
     RemovedLabel,
     AddedAttachment,
-    RemovedAttachment
+    RemovedAttachment,
+    None
 }
