@@ -8,5 +8,6 @@ namespace TrelloClone.Domain.Entities
         public ICollection<CardMember> CardMembers { get; set; } = new System.Collections.Generic.List<CardMember>();
         public ICollection<BoardMember> BoardMembers { get; set; } = new System.Collections.Generic.List<BoardMember>();
         public ICollection<Comment> Comments { get; set; } = new System.Collections.Generic.List<Comment>();
+        public ICollection<ActivityLog> ActivityLogs { get; set; } = new System.Collections.Generic.List<ActivityLog>();
     }
 }
