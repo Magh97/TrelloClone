@@ -6,7 +6,6 @@ public class Board : BaseEntity
     public string BackgroundColor { get; set; } = "#FFFFFF";
     public Guid OwnerId { get; set; }
     public User Owner { get; set; } = null!;
-    public UserRole Role { get; set; } = UserRole.User;
     public ICollection<List> Lists { get; set; } = new System.Collections.Generic.List<List>();
     public ICollection<Label> Labels { get; set; } = new System.Collections.Generic.List<Label>();
     public ICollection<ActivityLog> ActivityLogs { get; set; } = new System.Collections.Generic.List<ActivityLog>();
