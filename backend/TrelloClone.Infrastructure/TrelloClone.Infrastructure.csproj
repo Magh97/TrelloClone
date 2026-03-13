@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="10.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TrelloClone.Domain\TrelloClone.Domain.csproj" />
+    <ProjectReference Include="..\TrelloClone.Application\TrelloClone.Application.csproj" />
+  </ItemGroup>
+
 </Project>
